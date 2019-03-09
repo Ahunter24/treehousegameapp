@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Phrase Hunter</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- CSS -->
+		<link href="css/styles.css" rel="stylesheet">
+		<link href="css/animate.css" rel="stylesheet">
+
+		<!-- Fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Bai+Jamjuree:400,700" rel="stylesheet">
+	</head>
+
+	<body>
+		<!-- Main Container -->
+		<div class="main-container">
+
+			<!-- Start -->
+			<div id="overlay" class="start">
+				<img src="images/phrase-hunter.svg" class="title" alt="Phrase Hunter">
+				<h1 id="game-over-message"></h1>
+				<button id ="btn__reset">Start Game</button>
+			</div>
+
+			<!-- Banner -->
+			<div id="banner" class="section">
+				<img src="images/phrase-hunter.svg" class="banner-title" alt="Phrase Hunter">
+			</div>
+
+			<!-- Phrase -->
+			<div id="phrase" class="section">
+				<ul></ul>
+			</div>
+
+			<!-- Keyboard -->
+			<div id="qwerty" class="section">
+				<div class="keyrow">
+					<button class = "key">q</button>
+					<button class = "key">w</button>
+					<button class = "key">e</button>
+					<button class = "key">r</button>
+					<button class = "key">t</button>
+					<button class = "key">y</button>
+					<button class = "key">u</button>
+					<button class = "key">i</button>
+					<button class = "key">o</button>
+					<button class = "key">p</button>
+				</div>
+
+				<div class="keyrow">
+					<button class = "key">a</button>
+					<button class = "key">s</button>
+					<button class = "key">d</button>
+					<button class = "key">f</button>
+					<button class = "key">g</button>
+					<button class = "key">h</button>
+					<button class = "key">j</button>
+					<button class = "key">k</button>
+					<button class = "key">l</button>
+				</div>
+
+				<div class="keyrow">
+					<button class = "key">z</button>
+					<button class = "key">x</button>
+					<button class = "key">c</button>
+					<button class = "key">v</button>
+					<button class = "key">b</button>
+					<button class = "key">n</button>
+					<button class = "key">m</button>
+				</div>
+			</div><!-- End keyboard -->
+
+			<!-- Scoreboard -->
+			<div id="scoreboard" class="section">
+				<ol>
+					<li class="tries"><img src="images/liveHeart.svg" height="45px" width="45px"></li>
+					<li class="tries"><img src="images/liveHeart.svg" height="45px" width="45px"></li>
+					<li class="tries"><img src="images/liveHeart.svg" height="45px" width="45px"></li>
+					<li class="tries"><img src="images/liveHeart.svg" height="45px" width="45px"></li>
+					<li class="tries"><img src="images/liveHeart.svg" height="45px" width="45px"></li>
+				</ol>
+			</div><!-- End scoreboard -->
+		</div><!-- End main container -->
+
+	<!-- JS -->
+	<script src="js/Phrase.js"></script>
+	<script src="js/Game.js"></script>
+	<script src="js/app.js"></script>
+	</body>
+</html>
