@@ -98,3 +98,4 @@ document.addEventListener('keypress', function(event) {
     if (filter.test(event.key) && event.key !== 'Enter') {
         markButton(event);
     }
+});
